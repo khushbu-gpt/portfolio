@@ -12,7 +12,7 @@ const Home = () => {
     >
       <div className="max-w-7xl mx-auto flex flex-col lg:flex-row items-center justify-between gap-10 px-4 md:px-10 lg:px-16 ">
         <div className="relative w-[250px] lg:w-[380px] xl:w-[500px] lg:rounded-3xl rounded-full overflow-hidden bg-gradient-to-br from-[#1F6FEB]/30 to-[#0D1117]/80 p-[6px] backdrop-blur-lg shadow-xl hover:shadow-blue-600/30 transition-shadow duration-300">
-          {/* <div className="bg-[#161B22] rounded-2xl overflow-hidden p-2 shadow-inner shadow-black/40"> */}
+          <div className="bg-[#161B22] rounded-2xl overflow-hidden p-2 shadow-inner shadow-black/40">
             <Image
               src="/portfolio_pic.jpg"
               width={500}
@@ -21,7 +21,7 @@ const Home = () => {
               className="lg:rounded-xl object-cover w-full h-full rounded-full"
               priority={true}
             />
-          {/* </div> */}
+          </div>
         </div>
         <div className="max-w-xl flex justify-center flex-wrap text-center lg:flex-1 lg:justify-start lg:text-left">
           <h1 className="text-4xl xl:text-5xl font-bold py-5">
